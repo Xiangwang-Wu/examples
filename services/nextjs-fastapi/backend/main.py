@@ -31,6 +31,7 @@ def get_status():
         "service": "backend",
         "framework": "fastapi",
         "mountedAt": "/svc/api",
+        "branch": "development",
         "timestamp": datetime.now(timezone.utc).isoformat(),
     }
 
